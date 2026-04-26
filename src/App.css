@@ -1,0 +1,138 @@
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 2px;
+} 
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: aliceblue;
+}
+
+h3 {
+  color: aliceblue;
+  align-self: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+li {
+  list-style-type: none;
+  margin: 0px 20px;
+  font-size: small;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  align-self: center;
+}
+
+.hero {
+  border: none;
+}
+
+.center {
+  color: white;
+}
+
+.center h1{
+  color: white;
+}
+
+/* Product Card */
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  background-color: #404040;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  margin: 10px;
+  background-color: #2e2828;
+  border: 1px solid #2e2828;
+  border-radius: 15px;
+  height: 100%;
+  padding: 10px;
+}
+
+.product-img {
+  width: 200px;
+  height: 150px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.product-card p {
+  color: white;
+}
+
+.product-card button {
+  margin-top: auto;
+}
+
+.cart-container {
+    background-color: #404040;
+    height: calc(100vh - 60px);
+}
+
+.cart-container h2 {
+  color: white;
+}
+
+.cart-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Card styling */
+.cart-card {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  margin: 10px;
+  background-color: #2e2828;
+  border: 1px solid #2e2828;
+  border-radius: 15px;
+  height: 100%;
+  padding: 10px;
+  color: white;
+}
+
+/* Image */
+.cart-img {
+  width: 200px;
+  height: 150px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 15px;
+}
+
